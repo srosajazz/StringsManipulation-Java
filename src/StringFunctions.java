@@ -41,6 +41,7 @@ public class StringFunctions {
 			}	
 				System.out.println(f.substring(1, 4));
 				
+				//reverse String output
 				System.out.println(reverseString(f));
 				
 				System.out.println();
