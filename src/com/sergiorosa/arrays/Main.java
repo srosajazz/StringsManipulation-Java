@@ -43,15 +43,15 @@ public class Main {
 		int i = students.indexOf("Taylor");
 		System.out.println("Index of Taylor: " + i);
 		
-		//Remove items from LL O(n)
-		students.removeFirst();
-		students.removeLast();
+		//Remove items from LL 
+		students.removeFirst();  //O(n)
+		students.removeLast();	//O(n)
 		
 		//Remove by Object
 		students.remove("Tony"); //O(n)
 		
 		//Remove by index
-		students.remove(1);
+		students.remove(1); //O(n)
 		
 		System.out.println(students);
 		
